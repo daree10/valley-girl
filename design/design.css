@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body
+{
+	background-image: url("la_skyline.jpg");
+	background-color: #D6D6C2;
+	background-size: cover;
+	
+}
+@media screen and (min-width: 950px)
+{
+	body
+	{
+		background-repeat: no-repeat;
+	}
+}
+@media screen and (max-width: 950px)
+{
+	body
+	{
+		background-repeat: repeat-y;
+	}
+}
+
+#chatBox
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 800px;
+	overflow: auto;
+	background-image: url(chatBoxBgr.png);
+}
+#sendMsgForm
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	background-image: url(chatBoxBgr.png);
+}
+.chatBalloon
+{
+	
+	width: 45%;
+	font-size:18pt;
+	padding-left: 1%; 
+	word-wrap: break-word;
+	
+}
+.userBalloon
+{
+	border-radius: 20px 0 0 20px;
+	background-color: #0099FF;
+	margin-left:auto;
+}
+.botBalloon
+{
+	border-radius: 0 20px 20px 0;
+	background-color: pink;
+	margin-right: auto;
+}
+
+
+input,button
+{
+	float:right;
+	border-radius: 15px;
+	font-size:14pt;
+	padding-left: 1%;
+	font-family: 'Fjalla One', sans-serif;
+}
+button
+{
+	width: 20%;
+}

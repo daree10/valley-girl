@@ -1,0 +1,3 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule 102380729AAHx1ZLOAtk1d5pEi5mScB7apF40O5dpfU telegram/requestHandling.php [nc,qsa]
